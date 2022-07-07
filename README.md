@@ -1,8 +1,9 @@
 # ecommerce
 
-#### A full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
-This is a Single Page Application with client-side rendering. It includes backend and frontend two seperate projects on different branches.
-The frontend client makes API calls to the backend server when it is running.
+#### This is a sample full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
+- This is a single page application with client-side rendering. 
+- It includes backend and frontend as two seperate projects.
+- The frontend client makes API calls to the backend server when it is running.
 
 ![](https://bitbucket.org/sprathod369/ecommerce/raw/master/ecommerce.png)
 
@@ -45,7 +46,7 @@ Start the backend server before the frontend client.
 
 **Backend**
 
-  1. Install [PostgreSQL](https://www.postgresql.org/download/) 
+  1. Install [PostgreSQL](https://www.postgresql.org/download/) (alternatively spin up a postgres docker container)
   2. Configure datasource in `application.yml`.
   3. `cd backend`.
   4. Run `mvn install`.
