@@ -1,20 +1,65 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Ecommerce
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+#### A full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
+This is a Single Page Application with client-side rendering. It includes backend and frontend two seperate projects on different branches.
+The frontend client makes API calls to the backend server when it is running.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Features
+- REST API
+- Docker
+- Docker Compose
+- JWT authentication
+- Cookie based visitors' shopping cart
+- Persistent customers' shopping cart
+- Cart & order management
+- Checkout
+- Catalogue
+- Order management
+- Pagination
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Technology Stacks
+**Backend**
+  - Java 11
+  - Spring Boot 2.2
+  - Spring Security
+  - JWT Authentication
+  - Spring Data JPA
+  - Hibernate
+  - PostgreSQL
+  - Maven
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+**Frontend**
+  - Angular 7
+  - Angular CLI
+  - Bootstrap
+
+## Database Schema
+
+![](https://raw.githubusercontent.com/zhulinn/blog/hexo/source/uploads/post_pics/spring-angular/db.png)
+
+## How to Run
+
+Start the backend server before the frontend client.  
+
+**Backend**
+
+  1. Install [PostgreSQL](https://www.postgresql.org/download/) 
+  2. Configure datasource in `application.yml`.
+  3. `cd backend`.
+  4. Run `mvn install`.
+  5. Run `mvn spring-boot:run`.
+  6. Spring Boot will import mock data into database by executing `import.sql` automatically.
+  7. The backend server is running on [localhost:8080]().
+
+**Frontend**
+  1. Install [Node.js and npm](https://www.npmjs.com/get-npm)
+  2. `cd frontend`.
+  3. Run `npm install`.
+  4. Run `ng serve`
+  5. The frontend client is running on [localhost:4200]().
+  
+Note: The backend API url is configured in `src/environments/environment.ts` of the frontend project. It is `localhost:8080/api` by default.
+  
+#### Run in Docker
+TODO
+
