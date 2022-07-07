@@ -4,6 +4,8 @@
 This is a Single Page Application with client-side rendering. It includes backend and frontend two seperate projects on different branches.
 The frontend client makes API calls to the backend server when it is running.
 
+![](https://bitbucket.org/sprathod369/ecommerce/src/master/ecommerce.png)
+
 ## Features
 - REST API
 - Docker
@@ -35,7 +37,7 @@ The frontend client makes API calls to the backend server when it is running.
 
 ## Database Schema
 
-![](https://raw.githubusercontent.com/zhulinn/blog/hexo/source/uploads/post_pics/spring-angular/db.png)
+![](https://bitbucket.org/sprathod369/ecommerce/src/master/db.png)
 
 ## How to Run
 
@@ -52,6 +54,7 @@ Start the backend server before the frontend client.
   7. The backend server is running on [localhost:8080]().
 
 **Frontend**
+
   1. Install [Node.js and npm](https://www.npmjs.com/get-npm)
   2. `cd frontend`.
   3. Run `npm install`.
