@@ -1,10 +1,10 @@
-# Ecommerce
+# ecommerce
 
 #### A full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
 This is a Single Page Application with client-side rendering. It includes backend and frontend two seperate projects on different branches.
 The frontend client makes API calls to the backend server when it is running.
 
-![](https://bitbucket.org/sprathod369/ecommerce/src/master/ecommerce.png)
+![](https://bitbucket.org/sprathod369/ecommerce/raw/master/ecommerce.png)
 
 ## Features
 - REST API
@@ -37,7 +37,7 @@ The frontend client makes API calls to the backend server when it is running.
 
 ## Database Schema
 
-![](https://bitbucket.org/sprathod369/ecommerce/src/master/db.png)
+![](https://bitbucket.org/sprathod369/ecommerce/raw/master/db.png)
 
 ## How to Run
 
