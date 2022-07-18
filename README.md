@@ -2,10 +2,10 @@
 
 #### This is a sample full-stack Online Shop web application using Spring Boot 2 and Angular 7. 
 - This is a single page application with client-side rendering. 
-- It includes backend and frontend as two seperate projects.
+- It includes backend and frontend as two separate projects.
 - The frontend client makes API calls to the backend server when it is running.
 
-![](https://bitbucket.org/sprathod369/ecommerce/raw/master/ecommerce.png)
+![](https://github.com/sprathod369/ecommerce/blob/master/ecommerce.png)
 
 ## Features
 - REST API
@@ -22,23 +22,23 @@
 
 ## Technology Stacks
 **Backend**
-  - Java 11
-  - Spring Boot 2.2
-  - Spring Security
-  - JWT Authentication
-  - Spring Data JPA
-  - Hibernate
-  - PostgreSQL
-  - Maven
+  -Java 11
+  -Spring Boot 2.2
+  -Spring Security
+  -JWT Authentication
+  -Spring Data JPA
+  -Hibernate
+  -PostgreSQL
+  -Maven
 
 **Frontend**
-  - Angular 7
-  - Angular CLI
-  - Bootstrap
+  -Angular 7
+  -Angular CLI
+  -Bootstrap
 
 ## Database Schema
 
-![](https://bitbucket.org/sprathod369/ecommerce/raw/master/db.png)
+![](https://github.com/sprathod369/ecommerce/blob/master/db.png)
 
 ## How to Run
 
